@@ -17,7 +17,6 @@ module HammerCLIForemanKubevirt
       def host_attributes
         [
             ['start',    _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
-
         ]
       end
 
@@ -42,7 +41,6 @@ module HammerCLIForemanKubevirt
             :hostname, :api_port, :namespace, :token
         ]
       end
-
     end
   end
 end
