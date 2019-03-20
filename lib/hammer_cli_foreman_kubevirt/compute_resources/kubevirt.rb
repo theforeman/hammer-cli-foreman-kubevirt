@@ -36,12 +36,10 @@ module HammerCLIForemanKubevirt
 
         ]
       end
-
-      # def validation_for_provider_creation
-      #   [
-      #       :hostname, :api_port, :namespace, :token
-      #   ]
-      # end
+      
+      def mandatory_resource_options
+        super + [ :hostname, :api_port, :namespace, :token]
+      end
 
     end
   end
