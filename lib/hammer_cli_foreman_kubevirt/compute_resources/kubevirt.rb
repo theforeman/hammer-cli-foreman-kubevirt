@@ -31,12 +31,11 @@ module HammerCLIForemanKubevirt
       def volume_attributes;
         [
             ['capacity', _('Volume size in GB, integer value')],
-            ['name', _('Name of the Persistent Volume (PV)')],
-            ['id', _('Id of the Persistent Volume Claim (PVC)')],
-
+            ['storage_class', _('Name of the storage class')],
+            ['bootable', _('Boolean, only one volume can be bootable (overrides network interface boot)')]
         ]
       end
-      
+
       def mandatory_resource_options
         super + [ :hostname, :api_port, :namespace, :token]
       end
