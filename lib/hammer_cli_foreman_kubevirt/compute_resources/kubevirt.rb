@@ -27,7 +27,7 @@ module HammerCLIForemanKubevirt
         ]
       end
 
-      def volume_attributes;
+      def volume_attributes
         [
           ['capacity', _('Volume size in GB, integer value')],
           ['storage_class', _('Name of the storage class')],
@@ -36,9 +36,8 @@ module HammerCLIForemanKubevirt
       end
 
       def mandatory_resource_options
-        super + [ :hostname, :api_port, :namespace, :token]
+        super + %i[hostname api_port namespace token]
       end
-
     end
   end
 end
