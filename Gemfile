@@ -1,13 +1,4 @@
 source "https://rubygems.org"
-
+dev_gemfile = File.expand_path("Gemfile.dev.rb", __dir__)
+eval_gemfile(dev_gemfile) if File.exist?(dev_gemfile)
 gemspec
-
-gem 'gettext', '>= 3.1.3', '< 4.0.0'
-gem 'hammer_cli_foreman', :path => '../hammer-cli-foreman'
-gem 'pry-byebug'
-gem 'pry-rescue'
-gem 'pry-stack_explorer'
-
-group :test do
-  gem 'rake', '~> 10.1.0'
-end

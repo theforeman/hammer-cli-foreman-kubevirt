@@ -9,30 +9,29 @@ module HammerCLIForemanKubevirt
 
       def compute_attributes
         [
-            ['cores', _('number of cores, Integer value')],
-            ['memory', _('Amount of memory, integer value in bytes')],
+          ['cores', _('number of cores, Integer value')],
+          ['memory', _('Amount of memory, integer value in bytes')]
         ]
       end
 
       def host_attributes
         [
-            ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
-
+          ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
         ]
       end
 
       def interface_attributes
         [
-            ['cni_provider', _('Container Network Interface Provider name')],
-            ['network', _('The network to connect the vm to')],
+          ['cni_provider', _('Container Network Interface Provider name')],
+          ['network', _('The network to connect the vm to')]
         ]
       end
 
       def volume_attributes;
         [
-            ['capacity', _('Volume size in GB, integer value')],
-            ['storage_class', _('Name of the storage class')],
-            ['bootable', _('Boolean, only one volume can be bootable (overrides network interface boot)')]
+          ['capacity', _('Volume size in GB, integer value')],
+          ['storage_class', _('Name of the storage class')],
+          ['bootable', _('Boolean, only one volume can be bootable (overrides network interface boot)')]
         ]
       end
 
