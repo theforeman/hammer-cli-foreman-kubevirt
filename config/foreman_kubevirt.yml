@@ -1,0 +1,2 @@
+:foreman_kubevirt:
+  :enable_module: true
