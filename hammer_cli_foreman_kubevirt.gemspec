@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.authors = ["Shira Maximov"]
   s.homepage = 'https://github.com/theforeman/hammer-cli-foreman-kubevirt'
   s.version = HammerCLIForemanKubevirt.version.dup
-  s.license = 'GPLv3'
+  s.license = 'GPL-3.0'
   s.platform = Gem::Platform::RUBY
   s.summary = 'Foreman kubevirt commands for Hammer CLI'
   s.description = 'Foreman kubevirt commands for Hammer CLI.'
