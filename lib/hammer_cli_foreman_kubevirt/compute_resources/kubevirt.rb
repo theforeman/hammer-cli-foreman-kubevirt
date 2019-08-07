@@ -35,6 +35,14 @@ module HammerCLIForemanKubevirt
         ]
       end
 
+      def provider_specific_fields
+        [
+            Fields::Field.new(:label => _('hostname'), :path => [:hostname]),
+            Fields::Field.new(:label => _('api_port'), :path => [:api_port]),
+            Fields::Field.new(:label => _('namespace'), :path => [:namespace]),
+        ]
+      end
+
       def mandatory_resource_options
         super + %i[hostname api_port namespace token]
       end
