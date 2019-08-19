@@ -9,7 +9,7 @@ module HammerCLIForemanKubevirt
 
       def compute_attributes
         [
-          ['cores', _('number of cores, Integer value')],
+          ['cpu_cores', _('number of cores, Integer value')],
           ['memory', _('Amount of memory, integer value in bytes')]
         ]
       end
