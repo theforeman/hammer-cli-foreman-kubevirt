@@ -22,8 +22,8 @@ module HammerCLIForemanKubevirt
 
       def interface_attributes
         [
-          ['cni_provider', _('Container Network Interface Provider name')],
-          ['network', _('The network to connect the vm to')]
+          ['compute_cni_provider', _('Container Network Interface Provider name')],
+          ['compute_network', _('The network to connect the vm to')]
         ]
       end
 
