@@ -5,7 +5,7 @@ This [Hammer CLI](https://github.com/theforeman/hammer-cli) plugin contains
 set of commands for [foreman_kubevirt](https://github.com/theforeman/foreman_kubevirt),
 a plugin to [Foreman](http://theforeman.org/) for KubeVirt.
 
-Check out the [release notes](release_notes.md#release-notes) to see what's new in the latest version.
+Check out the [release notes](CHANGELOG.md#release-notes) to see what's new in the latest version.
 
 Configuration
 -------------
