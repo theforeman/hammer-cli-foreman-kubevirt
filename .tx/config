@@ -1,0 +1,9 @@
+[main]
+host = https://www.transifex.com
+
+[foreman.hammer_cli_foreman_kubevirt]
+file_filter = locale/<lang>/hammer_cli_foreman_kubevirt.po
+source_file = locale/hammer_cli_foreman_kubevirt.pot
+source_lang = en
+type = PO
+
