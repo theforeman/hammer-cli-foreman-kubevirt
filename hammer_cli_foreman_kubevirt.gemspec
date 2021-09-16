@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.files = Dir['{lib,config}/**/*', 'LICENSE', 'README*']
   s.require_paths = ["lib"]
 
-  s.add_dependency 'gettext', '>= 3.1.3', '< 4.0.0'
   s.add_dependency 'hammer_cli_foreman', '>=0.17.0'
+  s.add_development_dependency 'gettext', '>= 3.1.3', '< 4.0.0'
   s.add_development_dependency 'rake', '~> 12.3'
   s.add_development_dependency 'rubocop', '~> 0.64'
 end
