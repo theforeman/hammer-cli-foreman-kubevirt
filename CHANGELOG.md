@@ -1,3 +1,9 @@
+### 0.1.5
+
+* Make gettext a development dependency
+* i18n - extracting new, pulling from tx
+* Add Internationalization support
+
 ### 0.1.4 / 2019-08-27
 
 * Fix interfaces attributes
