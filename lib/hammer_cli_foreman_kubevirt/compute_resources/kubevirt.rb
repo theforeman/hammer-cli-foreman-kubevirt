@@ -39,7 +39,7 @@ module HammerCLIForemanKubevirt
         [
           Fields::Field.new(:label => _('hostname'), :path => [:hostname]),
           Fields::Field.new(:label => _('api_port'), :path => [:api_port]),
-          Fields::Field.new(:label => _('namespace'), :path => [:namespace]),
+          Fields::Field.new(:label => _('namespace'), :path => [:namespace])
         ]
       end
 
