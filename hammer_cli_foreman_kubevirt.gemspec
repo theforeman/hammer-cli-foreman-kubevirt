@@ -16,7 +16,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'hammer_cli_foreman', '>=0.17.0'
   s.add_development_dependency 'gettext', '>= 3.1.3', '< 4.0.0'
   s.add_development_dependency 'rake', '~> 12.3'
-  s.add_development_dependency 'rubocop', '~> 0.64'
 
   s.required_ruby_version = '>= 2.7', '< 4'
 end
