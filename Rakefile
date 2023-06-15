@@ -47,4 +47,3 @@ require "hammer_cli_foreman_kubevirt/version"
 require "hammer_cli_foreman_kubevirt/i18n"
 require "hammer_cli/i18n/find_task"
 HammerCLI::I18n::FindTask.define(HammerCLIForemanKubevirt::I18n::LocaleDomain.new, HammerCLIForemanKubevirt.version)
-

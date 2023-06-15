@@ -1,4 +1,7 @@
 # TODO: remove this file by either moving cops here or fixing code
+require:
+  - rubocop-performance
+
 inherit_from:
   - .rubocop_todo.yml
 
@@ -7,9 +10,6 @@ AllCops:
   TargetRailsVersion: 5.2
   Exclude:
     - 'Gemfile.dev.rb'
-
-Rails:
-  Enabled: true
 
 # Don't prefer is_a? over kind_of?
 Style/ClassCheck:
@@ -44,7 +44,7 @@ Style/FormatString:
 Style/RaiseArgs:
   Enabled: false
 
-Naming/UncommunicativeMethodParamName:
+Naming/MethodParameterName:
   Enabled: false
 
 Metrics:
@@ -58,9 +58,6 @@ Performance/RedundantMatch:
 
 Performance/RedundantMerge:
   Enabled: true
-
-Rails/Blank:
-  UnlessPresent: false
 
 #Allow both ['a', 'b'], %w[a b] and %w(a b) style arrays
 Style/WordArray:
@@ -99,10 +96,10 @@ Style/EmptyMethod:
 Style/ParenthesesAroundCondition:
   Enabled: false
 
-Layout/AlignHash:
+Layout/HashAlignment:
   Enabled: false
 
-Layout/AlignParameters:
+Layout/ParameterAlignment:
   Enabled: false
 
 # disabled until we can configure "+" as concat sign
@@ -115,12 +112,5 @@ Style/ParallelAssignment:
 Style/PreferredHashMethods:
   Enabled: false
 
-# Won't work with sqlite
-Rails/BulkChangeTable:
-  Enabled: false
-
 Style/MultipleComparison:
-  Enabled: false
-
-Rails/RefuteMethods:
   Enabled: false
