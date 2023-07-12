@@ -1,3 +1,6 @@
 Gemfile.lock
 Gemfile.dev.rb
 *.gem
+# Locale files
+locale/*/*.edit.po
+locale/*/*.po.time_stamp
