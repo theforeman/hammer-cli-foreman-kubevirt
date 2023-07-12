@@ -1,0 +1,64 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer-cli-foreman-kubevirt package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+# Translators:
+# Bryan Kearney <bryan.kearney@gmail.com>, 2020
+# Amit Upadhye <aupadhye@redhat.com>, 2022
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_kubevirt 0.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-04-07 17:30+0530\n"
+"PO-Revision-Date: 2020-05-26 08:08+0000\n"
+"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Language-Team: Portuguese (Brazil) (https://app.transifex.com/foreman/"
+"teams/114/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % "
+"1000000 == 0 ? 1 : 2;\n"
+
+msgid "KubeVirt"
+msgstr "KubeVirt"
+
+msgid "number of cores, Integer value"
+msgstr "número de núcleos, valor Inteiro"
+
+msgid "Amount of memory, integer value in bytes"
+msgstr "Quantidade de memória, valor inteiro em bytes"
+
+msgid "Boolean (expressed as 0 or 1), whether to start the machine or not"
+msgstr "Booleano (expresso como 0 ou 1), para iniciar a máquina ou não"
+
+msgid "Container Network Interface Provider name"
+msgstr "Nome do fornecedor da interface da rede de contêineres"
+
+msgid "The network to connect the vm to"
+msgstr "A rede para conectar o vm ao"
+
+msgid "Volume size in GB, integer value"
+msgstr "Tamanho do volume em GB, valor inteiro"
+
+msgid "Name of the storage class"
+msgstr "Nome da classe de armazenagem"
+
+msgid ""
+"Boolean, only one volume can be bootable (overrides network interface boot)"
+msgstr ""
+"Booleano, apenas um volume pode ser inicializável (substitui a inicialização "
+"da interface de rede)"
+
+msgid "hostname"
+msgstr "hostname"
+
+msgid "api_port"
+msgstr "api_port"
+
+msgid "namespace"
+msgstr "namespace"
