@@ -13,7 +13,7 @@ module HammerCLIForemanKubevirt
       end
 
       def domain_name
-        'hammer-cli-foreman-kubevirt'
+        'hammer_cli_foreman_kubevirt'
       end
 
       def type
