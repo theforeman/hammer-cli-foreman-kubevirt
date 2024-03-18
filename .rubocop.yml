@@ -1,87 +1,29 @@
-# TODO: remove this file by either moving cops here or fixing code
 require:
   - rubocop-performance
-
-inherit_from:
-  - .rubocop_todo.yml
+  - rubocop-minitest
 
 AllCops:
-  TargetRubyVersion: 2.7
-  TargetRailsVersion: 5.2
-  Exclude:
-    - 'Gemfile.dev.rb'
+  NewCops: enable
 
-# Don't prefer is_a? over kind_of?
-Style/ClassCheck:
-  Enabled: false
-
-# Don't enforce certain methods, e.g. detect over find
-Style/CollectionMethods:
-  Enabled: false
-
-# Don't enforce documentation
-Style/Documentation:
-  Enabled: false
-
-# Support both ruby19 and hash_rockets
-Style/HashSyntax:
-  Enabled: false
-
-# Both double and single quotes are OK
-Style/StringLiterals:
-  Enabled: false
-
-# Don't enforce frozen string literals
-Style/FrozenStringLiteralComment:
-  Enabled: false
-
-Style/FormatStringToken:
-  Enabled: false
-
-Style/FormatString:
-  Enabled: false
-
-Style/RaiseArgs:
-  Enabled: false
-
-Naming/MethodParameterName:
+Layout/LineLength:
   Enabled: false
 
 Metrics:
   Enabled: false
 
-Performance/Casecmp:
+Style/Documentation:
   Enabled: false
 
-Performance/RedundantMatch:
-  Enabled: true
-
-Performance/RedundantMerge:
-  Enabled: true
-
-#Allow both ['a', 'b'], %w[a b] and %w(a b) style arrays
-Style/WordArray:
+Style/StringLiterals:
   Enabled: false
 
-Style/AndOr:
-  EnforcedStyle: conditionals
-
-Style/TernaryParentheses:
-  EnforcedStyle: require_parentheses_when_complex
-
-Style/InverseMethods:
+Style/FrozenStringLiteralComment:
   Enabled: false
 
-Layout/FirstParameterIndentation:
-  EnforcedStyle: consistent
-
-Bundler/OrderedGems:
+Gemspec/RequireMFA:
   Enabled: false
 
-Style/Alias:
-  EnforcedStyle: prefer_alias_method
-
-Layout/DotPosition:
+Style/SymbolProc:
   Enabled: false
 
 Style/IfUnlessModifier:
@@ -113,4 +55,7 @@ Style/PreferredHashMethods:
   Enabled: false
 
 Style/MultipleComparison:
+  Enabled: false
+
+Style/SymbolArray:
   Enabled: false

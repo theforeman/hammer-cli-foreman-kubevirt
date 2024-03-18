@@ -34,13 +34,12 @@ end
 
 begin
   require 'rubocop/rake_task'
+rescue LoadError
+  # RuboCop is optional
+  task default: :test
+else
   RuboCop::RakeTask.new
-rescue StandardError => e
-  puts e.message
-end
-
-task :default do
-  Rake::Task['rubocop'].execute
+  task default: [:rubocop, :test]
 end
 
 require "hammer_cli_foreman_kubevirt/version"
