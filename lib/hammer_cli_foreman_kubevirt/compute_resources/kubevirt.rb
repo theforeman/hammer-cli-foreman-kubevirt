@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require 'hammer_cli_foreman/compute_resource/base'
 
 module HammerCLIForemanKubevirt
@@ -10,20 +12,20 @@ module HammerCLIForemanKubevirt
       def compute_attributes
         [
           ['cpu_cores', _('number of cores, Integer value')],
-          ['memory', _('Amount of memory, integer value in bytes')]
+          ['memory', _('Amount of memory, integer value in bytes')],
         ]
       end
 
       def host_attributes
         [
-          ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
+          ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')],
         ]
       end
 
       def interface_attributes
         [
           ['compute_cni_provider', _('Container Network Interface Provider name')],
-          ['compute_network', _('The network to connect the vm to')]
+          ['compute_network', _('The network to connect the vm to')],
         ]
       end
 
@@ -31,7 +33,7 @@ module HammerCLIForemanKubevirt
         [
           ['capacity', _('Volume size in GB, integer value')],
           ['storage_class', _('Name of the storage class')],
-          ['bootable', _('Boolean, only one volume can be bootable (overrides network interface boot)')]
+          ['bootable', _('Boolean, only one volume can be bootable (overrides network interface boot)')],
         ]
       end
 
@@ -39,7 +41,7 @@ module HammerCLIForemanKubevirt
         [
           Fields::Field.new(label: _('hostname'), path: [:hostname]),
           Fields::Field.new(label: _('api_port'), path: [:api_port]),
-          Fields::Field.new(label: _('namespace'), path: [:namespace])
+          Fields::Field.new(label: _('namespace'), path: [:namespace]),
         ]
       end
 
