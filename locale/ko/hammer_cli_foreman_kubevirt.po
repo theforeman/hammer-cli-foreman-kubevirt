@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# Andi Chandler <andi@gowling.com>, 2023
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
 #, fuzzy
 msgid ""
@@ -13,49 +13,49 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 15:33+0000\n"
 "PO-Revision-Date: 2020-05-26 08:08+0000\n"
-"Last-Translator: Andi Chandler <andi@gowling.com>, 2023\n"
-"Language-Team: English (United Kingdom) (https://app.transifex.com/foreman/"
-"teams/114/en_GB/)\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden "
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Language-Team: Korean (https://app.transifex.com/foreman/teams/114/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: en_GB\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "KubeVirt"
 msgstr "KubeVirt"
 
 msgid "number of cores, Integer value"
-msgstr "number of cores, Integer value"
+msgstr "코어 수, 정수 값"
 
 msgid "Amount of memory, integer value in bytes"
-msgstr "Amount of memory, integer value in bytes"
+msgstr "메모리 양, 바이트 단위의 정수 값"
 
 msgid "Boolean (expressed as 0 or 1), whether to start the machine or not"
-msgstr "Boolean (expressed as 0 or 1), whether to start the machine or not"
+msgstr "부울(0 또는 1로 표현), 머신을 시작할지 여부"
 
 msgid "Container Network Interface Provider name"
-msgstr "Container Network Interface Provider name"
+msgstr "컨테이너 네트워크 인터페이스 공급자 이름"
 
 msgid "The network to connect the vm to"
-msgstr "The network to connect the vm to"
+msgstr "vm을 연결할 네트워크"
 
 msgid "Volume size in GB, integer value"
-msgstr "Volume size in GB, integer value"
+msgstr "볼륨 크기(GB), 정수 값"
 
 msgid "Name of the storage class"
-msgstr "Name of the storage class"
+msgstr "스토리지 클래스의 이름"
 
 msgid ""
 "Boolean, only one volume can be bootable (overrides network interface boot)"
 msgstr ""
-"Boolean, only one volume can be bootable (overrides network interface boot)"
+"부울, 하나의 볼륨만 부팅 가능합니다(네트워크 인터페이스 부팅을 덮어쓰기함)"
 
 msgid "hostname"
-msgstr "hostname"
+msgstr "호스트 이름"
 
 msgid "api_port"
 msgstr "api_port"
 
 msgid "namespace"
-msgstr "namespace"
+msgstr "네임스페이스"
