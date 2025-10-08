@@ -6,15 +6,17 @@
 # Translators:
 # Bryan Kearney <bryan.kearney@gmail.com>, 2020
 # Amit Upadhye <aupadhye@redhat.com>, 2022
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2025
 #
 #, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: hammer_cli_foreman_kubevirt 0.2.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-12 15:33+0000\n"
+"POT-Creation-Date: 2024-11-11 19:27+0100\n"
 "PO-Revision-Date: 2020-05-26 08:08+0000\n"
-"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2022\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud"
+"+transifex@kohlvanwijngaarden.nl>, 2025\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/foreman/teams/114/"
 "zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +26,7 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "KubeVirt"
-msgstr "KubeVirt"
+msgstr "kubevirt"
 
 msgid "number of cores, Integer value"
 msgstr "内核数量，整数值"
