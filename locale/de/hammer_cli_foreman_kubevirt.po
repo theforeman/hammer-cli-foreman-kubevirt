@@ -5,7 +5,7 @@
 #
 # Translators:
 # Ettore Atalan <atalanttore@googlemail.com>, 2020
-# Crited <Alexander.Stoll@netways.de>, 2020
+# Alexander Stoll <Alexander.Stoll@netways.de>, 2020
 # pdolinic, 2021
 #
 #, fuzzy
