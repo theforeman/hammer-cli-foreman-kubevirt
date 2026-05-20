@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.files = Dir['{lib,config,locale}/**/*', 'LICENSE', 'README*'] + Dir['locale/**/*.{po,pot,mo}']
   s.require_paths = ['lib']
 
-  s.add_dependency 'hammer_cli_foreman', '~> 3.10'
+  s.add_dependency 'hammer_cli_foreman', '~> 5.0'
 
   s.add_development_dependency 'gettext', '>= 3.1.3', '< 4.0.0'
   s.add_development_dependency 'rake', '~> 12.3'
